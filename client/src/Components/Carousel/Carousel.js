@@ -7,6 +7,7 @@ import F from "../../assets/5.jpg";
 const Carousell = () => {
   return (
     <div>
+      <h2 ClassName="welcome">𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝔸ℝ𝕆𝕄 𝕋𝔼ℂℍ</h2>
       <Carousel className="caroussize">
         <Carousel.Item interval="1500">
           <img

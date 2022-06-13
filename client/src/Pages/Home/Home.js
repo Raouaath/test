@@ -9,11 +9,10 @@ const Home = () => {
     <div>
       <div classNaame="home">
         <Carousel />
-        <h2 ClassName="welcome">Welcome To AROM Tech</h2>
         <ProductList />
         <div ClassName="delivery">
-          <img alt="Order" src={Order} width={600} />
-          <h3>Home Delivery</h3>
+          <img alt="Order" src={Order} width={100} />
+          <h3>Contact Us for Delivery Help</h3>
         </div>
       </div>
     </div>

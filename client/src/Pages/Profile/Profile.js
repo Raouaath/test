@@ -8,6 +8,7 @@ import { BsCalendarDate } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import "./Profile.css";
 
 const Profile = () => {
   const dispatch = useDispatch();

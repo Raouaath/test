@@ -1,6 +1,8 @@
 h2 {
+  padding: 40px;
   font-size: 40px !important;
-  font-family: "Comic sans Ms", cursive, sans-serif !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
   font-style: italic !important;
   color: rgb(209, 28, 28) !important;
   text-align: center !important;
@@ -8,16 +10,50 @@ h2 {
   white-space: nowrap !important;
   overflow: hidden !important;
 }
-@keyframes type {
-  0% {
-    width: 0ch;
+body {
+  background-color: var(--bg0);
+  color: var(--fg0);
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  transition: color 100ms linear, background 100ms linear, border 200ms linear;
+}
+
+.centerContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+@keyframes searchAnim {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
   }
-  100% {
-    width: 22ch;
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
+@keyframes resizeOut {
+  from {
+    opacity: 0;
+    transform: scale(10%);
+  }
+  to {
+    opacity: 1;
+    transform: scale(100%);
+  }
+}
 .delivery {
   display: flex !important;
-  font-weight: 100px;
+  font-weight: 10000px;
+  text-align: end;
 }

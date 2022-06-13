@@ -6,7 +6,7 @@ import { getCart } from "../../JS/Actions/cartActions";
 import ListeCart from "../Liste/ListeCart/ListeCart";
 import { getAuthUser } from "../../JS/Actions/authActions";
 import { checkout } from "../../JS/Actions/orderActions";
-
+import "./Cart.css";
 
 const Cart = () => {
   const user = useSelector((state) => state.authReducer.user);

@@ -33,31 +33,31 @@ const Navbarr = () => {
               <Link to="/Homeadmin" className="lin">
                 Home
               </Link>
-              <NavDropdown title="Products Categories" ClassName="lin">
-                <NavDropdown.Item href="/Smartphone" ClassName="linn">
+              <NavDropdown title="Products Categories" className="lin">
+                <NavDropdown.Item href="/Smartphone" className="linn">
                   Smartphone
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/Tablettes" ClassName="linn">
+                <NavDropdown.Item href="/Tablettes" className="linn">
                   Tablettes
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/Computers" ClassName="linn">
+                <NavDropdown.Item href="/Computers" className="linn">
                   Computers
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/Printers" ClassName="linn">
+                <NavDropdown.Item href="/Printers" className="linn">
                   Printers
                 </NavDropdown.Item>
               </NavDropdown>
-              <Link to="/ContactUS" ClassName="lin">
+              <Link to="/ContactUS" className="lin">
                 ContactUS
               </Link>
-              <Link to="/Order" ClassName="lin">
+              <Link to="/Order" className="lin">
                 Orders
               </Link>
-              <Link to="/cart" ClassName="lin">
+              <Link to="/cart" className="lin">
                 Cart
               </Link>
               {isAuth ? (
-                <button onClick={() => dispatch(logout())} ClassName="icon">
+                <button onClick={() => dispatch(logout())} className="icon">
                   {" "}
                   <HiOutlineLogout
                     style={{ color: "#fff", fontSize: "1.5em" }}
@@ -65,10 +65,10 @@ const Navbarr = () => {
                 </button>
               ) : (
                 <div>
-                  <Link to="/CreateAccount" ClassName="lin">
+                  <Link to="/CreateAccount" className="lin">
                     Create Account
                   </Link>
-                  <Link to="/login" ClassName="lin">
+                  <Link to="/login" className="lin">
                     Login
                   </Link>
                 </div>
